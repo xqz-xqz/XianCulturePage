@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>全景漫游 · 长安视界</title>
+    <!-- 字体与图标库（与首页一致） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 主样式表 -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- 导航栏（与首页完全相同） -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-pagoda"></i>
+            <a href="../zh/xianculture.html">长安视界</a>
+        </div>
+        <div class="nav-links">
+            <a href="../zh/panorama.html">全景漫游</a>
+            <a href="../zh/scenic.html">名胜集萃</a>
+            <a href="../zh/silkroad.html">丝路起点</a>
+            <a href="../zh/intangible.html">非遗传承</a>
+        </div>
+        <div class="nav-right">
+            <button><i class="fas fa-search"></i> 探索</button>
+            <button><i class="far fa-user"></i></button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- 内页标题区 -->
+        <section style="margin: 40px 0 30px;">
+            <h1 style="font-size: 3rem; font-weight: 700; color: var(--changan-red);">
+                <i class="fas fa-vr-cardboard"></i> 720°全景 · 云游长安
+            </h1>
+            <p style="font-size: 1.2rem; color: #5a5a5a; max-width: 800px;">
+                通过高精度全景影像,足不出户沉浸式游览钟楼、大雁塔、城墙等12处核心文化遗产。
+            </p>
+        </section>
+
+        <!-- 全景场景网格（扩展展示） -->
+        <div class="vr-grid" style="margin-bottom: 40px;">
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/29012180/pexels-photo-29012180.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-street-view"></i> 钟楼 · 晨钟暮鼓</div>
+            </div>
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/3252314/pexels-photo-3252314.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-tree"></i> 曲江池遗址</div>
+            </div>
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/1619299/pexels-photo-1619299.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-mountain"></i> 骊山 · 华清宫</div>
+            </div>
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/29012179/pexels-photo-29012179.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-chess-board"></i> 碑林博物馆</div>
+            </div>
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/3727258/pexels-photo-3727258.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-mask"></i> 兵马俑一号坑</div>
+            </div>
+            <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                <div class="vr-overlay"><i class="fas fa-pagoda"></i> 大雁塔 · 南北广场</div>
+            </div>
+        </div>
+
+        <!-- 说明与引导 -->
+        <div style="background: #f9f4e8; border-radius: 24px; padding: 30px; text-align: center; margin-bottom: 50px;">
+            <i class="fas fa-glasses" style="font-size: 3rem; color: var(--bronze-green);"></i>
+            <h3 style="margin: 20px 0 10px;">支持VR头显与手机陀螺仪</h3>
+            <p>点击任意场景进入全屏漫游模式,拖动画面或转动手机即可360°观赏。</p>
+            <button class="btn-outline-gold" style="margin-top: 20px;" onclick="alert('演示版：全景功能开发中，敬请期待！')">
+                <i class="fas fa-play"></i> 开始导览
+            </button>
+        </div>
+
+        <!-- 返回首页链接（备选） -->
+        <div style="text-align: center; margin-bottom: 40px;">
+            <a href="../zh/xianculture.html" style="color: var(--changan-red); text-decoration: none; font-weight: 500;"><i class="fas fa-arrow-left"></i> 返回首页</a>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div>© 2026 长安视界 · 西安文化线上窗口   |   数字让文物活起来</div>
+        <div class="footer-links">
+            <i class="fab fa-weixin"></i>
+            <i class="fab fa-weibo"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fas fa-qrcode"></i>
+        </div>
+    </footer>
+
+    <!-- 仅需通用交互脚本（无Three.js） -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

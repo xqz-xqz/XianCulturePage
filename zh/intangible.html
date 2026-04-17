@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>非遗传承 · 长安视界</title>
+    <!-- 字体与图标库 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 主样式表 -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- 统一导航栏 -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-pagoda"></i>
+            <a href="../zh/xianculture.html">长安视界</a>
+        </div>
+        <div class="nav-links">
+            <a href="../zh/panorama.html">全景漫游</a>
+            <a href="../zh/scenic.html">名胜集萃</a>
+            <a href="../zh/silkroad.html">丝路起点</a>
+            <a href="../zh/intangible.html">非遗传承</a>
+        </div>
+        <div class="nav-right">
+            <button><i class="fas fa-search"></i> 探索</button>
+            <button><i class="far fa-user"></i></button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- 页面标题 -->
+        <section style="margin: 40px 0 30px;">
+            <h1 style="font-size: 3rem; font-weight: 700; color: var(--changan-red);">
+                <i class="fas fa-hands"></i> 匠心西安 · 非遗图谱
+            </h1>
+            <p style="font-size: 1.2rem; color: #5a5a5a; max-width: 800px;">
+                西安拥有国家级非遗项目10余项，省级百余项。从秦腔的吼声到皮影的光影，从羊肉泡馍到唐三彩，非遗活在日常里。
+            </p>
+        </section>
+
+        <!-- 非遗分类快速入口（类似首页四维卡片） -->
+        <div class="quad-grid" style="margin-bottom: 40px;">
+            <div class="quad-card">
+                <i class="fas fa-mask quad-icon"></i>
+                <h3>传统戏剧</h3>
+                <p>秦腔 · 眉户 · 皮影戏 · 木偶戏</p>
+            </div>
+            <div class="quad-card">
+                <i class="fas fa-paint-brush quad-icon"></i>
+                <h3>传统美术</h3>
+                <p>凤翔泥塑 · 户县农民画 · 剪纸</p>
+            </div>
+            <div class="quad-card">
+                <i class="fas fa-utensils quad-icon"></i>
+                <h3>传统技艺</h3>
+                <p>羊肉泡馍 · 唐三彩 · 楮皮纸</p>
+            </div>
+            <div class="quad-card">
+                <i class="fas fa-drum quad-icon"></i>
+                <h3>民俗</h3>
+                <p>西安鼓乐 · 社火 · 七夕节</p>
+            </div>
+        </div>
+
+        <!-- 重点非遗项目展示（两列图文） -->
+        <h2 class="section-title"><i class="fas fa-star"></i> 匠心之选</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px;">
+            <div style="background: #fff; border-radius: 32px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                <div style="height: 200px; background-image: url('https://images.pexels.com/photos/8206738/pexels-photo-8206738.jpeg?auto=compress&cs=tinysrgb&w=600'); background-size: cover;"></div>
+                <div style="padding: 24px;">
+                    <span class="badge" style="background: var(--pottery-gold);">国家级非遗 · 人类非遗</span>
+                    <h3 style="margin: 12px 0;">西安鼓乐</h3>
+                    <p>源于隋唐，是迄今为止中国境内发现并保存最完整的大型民间器乐乐种之一，被誉为“中国古代音乐的活化石”。</p>
+                </div>
+            </div>
+            <div style="background: #fff; border-radius: 32px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                <div style="height: 200px; background-image: url('https://images.pexels.com/photos/7330302/pexels-photo-7330302.jpeg?auto=compress&cs=tinysrgb&w=600'); background-size: cover;"></div>
+                <div style="padding: 24px;">
+                    <span class="badge" style="background: var(--bronze-green);">国家级非遗</span>
+                    <h3 style="margin: 12px 0;">唐三彩烧制技艺</h3>
+                    <p>以黄、绿、白三色为主，釉彩流淌交融。从随葬明器到国礼重器，唐三彩是盛唐气象的陶瓷记忆。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 传承人故事（横向滚动或单卡片） -->
+        <div style="background: #f9f4e8; border-radius: 36px; padding: 36px; margin: 40px 0;">
+            <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+                <div style="width: 120px; height: 120px; border-radius: 50%; background-image: url('https://images.pexels.com/photos/3779760/pexels-photo-3779760.jpeg?auto=compress&cs=tinysrgb&w=300'); background-size: cover; border: 4px solid var(--changan-red);"></div>
+                <div style="flex:1;">
+                    <h3 style="font-size: 1.8rem;"><i class="fas fa-user-circle"></i> 传承人 · 赵师傅（秦腔脸谱绘制）</h3>
+                    <p>“每一张脸谱都是一个角色的一生。我画了四十年，现在用iPad教年轻人画，非遗不能断代。”</p>
+                    <div style="margin-top: 16px;">
+                        <button class="btn-outline-gold"><i class="fas fa-play"></i> 观看口述史视频</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 非遗数字化成果展示 -->
+        <div style="margin-bottom: 40px;">
+            <h3 style="font-size: 1.8rem; margin-bottom: 20px;"><i class="fas fa-cubes"></i> 非遗数字化 · 让技艺永生</h3>
+            <div class="vr-grid">
+                <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/3992934/pexels-photo-3992934.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="vr-overlay">3D扫描 · 凤翔泥塑</div>
+                </div>
+                <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/8206738/pexels-photo-8206738.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="vr-overlay">动作捕捉 · 皮影戏</div>
+                </div>
+                <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/7330302/pexels-photo-7330302.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="vr-overlay">AI辅助 · 纹样设计</div>
+                </div>
+                <div class="vr-item" style="background-image: url('https://images.pexels.com/photos/3992934/pexels-photo-3992934.jpeg?auto=compress&cs=tinysrgb&w=600');">
+                    <div class="vr-overlay">VR传习所 · 秦腔教学</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 返回首页链接 -->
+        <div style="text-align: center; margin-bottom: 40px;">
+            <a href="../zh/xianculture.html" style="color: var(--changan-red); text-decoration: none; font-weight: 500;"><i class="fas fa-arrow-left"></i> 返回首页</a>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div>© 2026 长安视界 · 西安文化线上窗口   |   数字让文物活起来</div>
+        <div class="footer-links">
+            <i class="fab fa-weixin"></i>
+            <i class="fab fa-weibo"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fas fa-qrcode"></i>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

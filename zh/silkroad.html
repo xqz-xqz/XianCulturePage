@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>丝路起点 · 长安视界</title>
+    <!-- 字体与图标库 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- 主样式表 -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- 统一导航栏 -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-pagoda"></i>
+            <a href="../zh/xianculture.html">长安视界</a>
+        </div>
+        <div class="nav-links">
+            <a href="../zh/panorama.html">全景漫游</a>
+            <a href="../zh/scenic.html">名胜集萃</a>
+            <a href="../zh/silkroad.html">丝路起点</a>
+            <a href="../zh/intangible.html">非遗传承</a>
+        </div>
+        <div class="nav-right">
+            <button><i class="fas fa-search"></i> 探索</button>
+            <button><i class="far fa-user"></i></button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- 页面标题 -->
+        <section style="margin: 40px 0 30px;">
+            <h1 style="font-size: 3rem; font-weight: 700; color: var(--changan-red);">
+                <i class="fas fa-route"></i> 丝路起点 · 文明交响
+            </h1>
+            <p style="font-size: 1.2rem; color: #5a5a5a; max-width: 800px;">
+                两千年前，张骞从长安出发凿空西域；一千年前，大唐西市汇集天下商贾。这里是丝绸之路的零公里处。
+            </p>
+        </section>
+
+        <!-- 标志性图片横幅 -->
+        <div style="height: 280px; background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.1)), url('https://images.pexels.com/photos/29012188/pexels-photo-29012188.jpeg?auto=compress&cs=tinysrgb&w=1200'); background-size: cover; background-position: center 30%; border-radius: 40px; margin-bottom: 40px; display: flex; align-items: flex-end; padding: 30px;">
+            <div style="color: white;">
+                <h2 style="font-size: 2.5rem; text-shadow: 2px 2px 10px rgba(0,0,0,0.5);">大唐西市 · 金市</h2>
+                <p style="font-size: 1.2rem; text-shadow: 1px 1px 5px rgba(0,0,0,0.5);">“买东西”一词的由来之地，隋唐国际贸易中心</p>
+            </div>
+        </div>
+
+        <!-- 丝路故事卡片（借鉴首页 story-grid） -->
+        <h2 class="section-title"><i class="fas fa-scroll"></i> 丝路记忆</h2>
+        <div class="story-grid" style="margin-bottom: 40px;">
+            <div class="story-card">
+                <div class="story-img" style="background-image: url('https://images.pexels.com/photos/2916818/pexels-photo-2916818.jpeg?auto=compress&cs=tinysrgb&w=600');"></div>
+                <div class="story-content">
+                    <div class="story-tag"><i class="fas fa-user-astronaut"></i> 凿空者</div>
+                    <h4>张骞出使西域</h4>
+                    <p>公元前138年，汉武帝派遣张骞从长安出发，历经十三年，终于开通了连接东西方的官方通道。</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-img" style="background-image: url('https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&w=600');"></div>
+                <div class="story-content">
+                    <div class="story-tag"><i class="fas fa-store"></i> 胡商云集</div>
+                    <h4>西市胡姬与酒肆</h4>
+                    <p>李白诗云“五陵年少金市东，银鞍白马度春风”，西市酒肆中胡姬歌舞，西域香料、珠宝琳琅满目。</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-img" style="background-image: url('https://images.pexels.com/photos/13107777/pexels-photo-13107777.jpeg?auto=compress&cs=tinysrgb&w=600');"></div>
+                <div class="story-content">
+                    <div class="story-tag"><i class="fas fa-gem"></i> 文明交融</div>
+                    <h4>佛教东传与景教流行</h4>
+                    <p>大秦景教流行中国碑、鸠摩罗什译经场……丝路带来了信仰、艺术与技术的深度交融。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 数字丝路互动区域 -->
+        <div style="background: linear-gradient(135deg, #e8e0d5 0%, #f9f4e8 100%); border-radius: 36px; padding: 36px; margin: 40px 0;">
+            <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div style="flex: 2; min-width: 280px;">
+                    <h3 style="font-size: 2rem;"><i class="fas fa-globe" style="color: var(--bronze-green);"></i> 云上丝路 · 数字孪生</h3>
+                    <p style="margin: 20px 0;">基于高精度三维扫描与GIS数据，我们正在构建“网上丝绸之路”数字平台。您可以探索沿线文物、古城遗址，甚至通过AR技术让粟特商队的骆驼在您眼前走过。</p>
+                    <div class="tag-group">
+                        <span class="tag">敦煌莫高窟</span>
+                        <span class="tag">高昌故城</span>
+                        <span class="tag">撒马尔罕</span>
+                        <span class="tag">巴格达</span>
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.5); border-radius: 24px; padding: 24px; text-align: center;">
+                    <i class="fas fa-qrcode" style="font-size: 4rem; color: var(--changan-red);"></i>
+                    <p style="margin-top: 16px;">手机扫码，体验“丝路AR导览”</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 返回首页链接 -->
+        <div style="text-align: center; margin-bottom: 40px;">
+            <a href="../zh/xianculture.html" style="color: var(--changan-red); text-decoration: none; font-weight: 500;"><i class="fas fa-arrow-left"></i> 返回首页</a>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div>© 2026 长安视界 · 西安文化线上窗口   |   数字让文物活起来</div>
+        <div class="footer-links">
+            <i class="fab fa-weixin"></i>
+            <i class="fab fa-weibo"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fas fa-qrcode"></i>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
